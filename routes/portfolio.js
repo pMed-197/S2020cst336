@@ -3,7 +3,7 @@ var router = express.Router();
 const path=require('path');
 /* GET home page. */
 router.get('/portfolio', function(req, res, next) {
-    res.sendFile(path.join(__dirname+'/index.html'))
+    res.sendFile(path.join(__dirname+'/index.html'));
 });
 
 module.exports = router;
